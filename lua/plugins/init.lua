@@ -4,4 +4,5 @@ return {
   {"nvim-treesitter/playground"},
   {"mbbill/undotree"},
   {"tpope/vim-fugitive"},
+  {"github/copilot.vim"},
 }

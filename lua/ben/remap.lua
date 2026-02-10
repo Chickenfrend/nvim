@@ -1,6 +1,6 @@
 vim.g.mapleader = " "
 
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex) 
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- Allows you to move highlighted lines with capital J and K
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -33,9 +33,9 @@ vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 
 -- Window Navigation with Ctrl-[hjkl]
-vim.keymap.set("n", "<C-J>", "<C-W>j")
-vim.keymap.set("n","<C-K>", "<C-W>k")
-vim.keymap.set("n", "<C-H>", "<C-W>h")
-vim.keymap.set("n", "<C-L>", "<C-W>l")
+-- vim.keymap.set("n", "<C-J>", "<C-W>j")
+-- vim.keymap.set("n","<C-K>", "<C-W>k")
+-- vim.keymap.set("n", "<C-H>", "<C-W>h")
+-- vim.keymap.set("n", "<C-L>", "<C-W>l")
 
 vim.keymap.set("i","jk","<esc>",{noremap=true})
